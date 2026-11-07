@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://y1eep6lp1dxb"
+path="res://.godot/imported/snow-tree-b.obj-47d995439ee2b01c327eeae8b5e64e93.mesh"
+
+[deps]
+
+files=["res://.godot/imported/snow-tree-b.obj-47d995439ee2b01c327eeae8b5e64e93.mesh"]
+
+source_file="res://assets/environment/butcher-props/snow-tree-b.obj"
+dest_files=["res://.godot/imported/snow-tree-b.obj-47d995439ee2b01c327eeae8b5e64e93.mesh", "res://.godot/imported/snow-tree-b.obj-47d995439ee2b01c327eeae8b5e64e93.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

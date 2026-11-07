@@ -1,0 +1,10 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_7cjht"]
+[ext_resource type="PackedScene" path="res://scenes/world/meadow_world.tscn" id="2_02jud"]
+
+[node name="MeadowField" type="Node3D" unique_id=427963462]
+script = ExtResource("1_7cjht")
+world_scene = ExtResource("2_02jud")
+spawn_position = Vector3(4, 0, 8)
+play_half_extent = 118.0

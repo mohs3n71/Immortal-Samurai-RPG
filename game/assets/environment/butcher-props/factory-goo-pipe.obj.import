@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dnx3gtf6tcl5k"
+path="res://.godot/imported/factory-goo-pipe.obj-cc089fe17d89fe2aeeb814bb74c54d6b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/factory-goo-pipe.obj-cc089fe17d89fe2aeeb814bb74c54d6b.mesh"]
+
+source_file="res://assets/environment/butcher-props/factory-goo-pipe.obj"
+dest_files=["res://.godot/imported/factory-goo-pipe.obj-cc089fe17d89fe2aeeb814bb74c54d6b.mesh", "res://.godot/imported/factory-goo-pipe.obj-cc089fe17d89fe2aeeb814bb74c54d6b.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

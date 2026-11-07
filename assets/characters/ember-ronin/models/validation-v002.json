@@ -1,0 +1,15 @@
+{
+  "blender_version": "4.5.9 LTS",
+  "mesh_objects": 255,
+  "evaluated_vertices": 71016,
+  "evaluated_triangles": 139872,
+  "bounds_xyz_m": [
+    3.1795941591262817,
+    1.2780330777168274,
+    3.615601420402527
+  ],
+  "armatures": 0,
+  "animation_clips": 0,
+  "textures": 0,
+  "stage": "static design approval draft; not Android validated"
+}

@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://n5xp8k8jgs4s"
+path="res://.godot/imported/stone-statue.obj-b1bedaabea479f4bfbcd7ea0df2082bd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/stone-statue.obj-b1bedaabea479f4bfbcd7ea0df2082bd.mesh"]
+
+source_file="res://assets/environment/butcher-props/stone-statue.obj"
+dest_files=["res://.godot/imported/stone-statue.obj-b1bedaabea479f4bfbcd7ea0df2082bd.mesh", "res://.godot/imported/stone-statue.obj-b1bedaabea479f4bfbcd7ea0df2082bd.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

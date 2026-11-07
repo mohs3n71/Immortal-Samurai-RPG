@@ -1,0 +1,45 @@
+[
+  {
+    "id": "kaze",
+    "name": "Kaze",
+    "body": "res://assets/heroes/kaze/kaze.tscn",
+    "parts": [],
+    "icon": "res://assets/heroes/kaze/icon.png",
+    "idle": "idle",
+    "run": "run",
+    "portrait": "res://assets/heroes/kaze/portrait-v001.png",
+    "model_scale": 2.5,
+    "attack": "slash_1",
+    "combo": [
+      {
+        "clip": "slash_1",
+        "hit": 0.16,
+        "chain": 0.26,
+        "damage": 1,
+        "trail": "sweep_left"
+      },
+      {
+        "clip": "slash_2",
+        "hit": 0.15,
+        "chain": 0.25,
+        "damage": 1,
+        "trail": "sweep_right"
+      },
+      {
+        "clip": "slash_3",
+        "hit": 0.2,
+        "chain": 0.32,
+        "damage": 1,
+        "trail": "rise"
+      },
+      {
+        "clip": "slash_4",
+        "hit": 0.42,
+        "chain": 0.8,
+        "damage": 2,
+        "trail": "slam",
+        "finisher": true
+      }
+    ]
+  }
+]

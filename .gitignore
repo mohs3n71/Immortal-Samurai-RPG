@@ -1,0 +1,28 @@
+# Local tools and caches
+.tools/
+**/.godot/
+__pycache__/
+*.pyc
+*.blend1
+
+# Dota 2 assets, previews and tests: not used by the game, never upload
+*dota*/
+assets/characters/*
+!assets/characters/ember-ronin/
+experiments/juggernaut-*/
+assets/characters/ember-ronin/references/juggernaut-*
+
+# Builds and big media (GitHub refuses files over 100 MB)
+builds/
+*.apk
+*.aab
+*.mp4
+*.zip
+
+# Butcher Hero Unity recovery workspace and its logs (huge Unity cache)
+unity-meadowlands/
+unity-meadowlands-*.log
+
+# Local leftovers
+_to_delete/
+walking-test-log.txt

@@ -1,0 +1,5 @@
+extends RefCounted
+
+const WALK_SPEED := 30.0
+const HALF_EXTENT := 450.0
+const CENTER_TO_EDGE_SECONDS := HALF_EXTENT / WALK_SPEED

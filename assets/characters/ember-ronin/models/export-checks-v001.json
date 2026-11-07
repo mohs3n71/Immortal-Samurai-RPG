@@ -1,0 +1,10 @@
+{
+  "blend_reopen": "passed",
+  "blend_character_parts": 210,
+  "glb_reimport": "passed",
+  "glb_mesh_objects": 210,
+  "glb_triangles": 26424,
+  "triangle_count_matches_source": true,
+  "studio_camera_lights_floor_excluded": true,
+  "deformation_animation_android_checks": "not performed; static design draft"
+}

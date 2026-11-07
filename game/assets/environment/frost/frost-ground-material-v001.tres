@@ -1,0 +1,33 @@
+[gd_resource type="ShaderMaterial" format=3]
+
+[ext_resource type="Shader" path="res://scripts/world/meadow_ground.gdshader" id="1_mjkle"]
+[ext_resource type="Texture2D" path="res://assets/environment/frost/frost-path-v001.png" id="2_lrrxq"]
+[ext_resource type="Texture2D" path="res://assets/environment/frost/frost-floor-v001.png" id="3_y6xi0"]
+[ext_resource type="Texture2D" path="res://assets/environment/frost/frost-ground-mask-v001.png" id="4_3u1sn"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_brtah"]
+frequency = 0.012
+fractal_octaves = 3
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_l4jrt"]
+width = 256
+height = 256
+noise = SubResource("FastNoiseLite_brtah")
+seamless = true
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_mjkle")
+shader_parameter/grass_texture = ExtResource("3_y6xi0")
+shader_parameter/dirt_texture = ExtResource("2_lrrxq")
+shader_parameter/mask_texture = ExtResource("4_3u1sn")
+shader_parameter/noise_texture = SubResource("NoiseTexture2D_l4jrt")
+shader_parameter/mask_origin = Vector2(-198, -528)
+shader_parameter/mask_size = 520.0
+shader_parameter/grass_light = Color(0.97, 0.98, 1, 1)
+shader_parameter/grass_dark = Color(0.8, 0.86, 0.95, 1)
+shader_parameter/grass_desaturation = 0.0
+shader_parameter/path_rim = Color(0.52, 0.6, 0.74, 1)
+shader_parameter/shore_color = Color(0.86, 0.91, 0.97, 1)
+shader_parameter/water_shallow = Color(0.66, 0.87, 0.96, 1)
+shader_parameter/water_deep = Color(0.38, 0.62, 0.84, 1)
